@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>shishi</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-05-20T00:30:08.166Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Shi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实验</title>
+    <link href="http://yoursite.com/2019/05/20/%E5%AE%9E%E9%AA%8C/"/>
+    <id>http://yoursite.com/2019/05/20/实验/</id>
+    <published>2019-05-20T00:20:51.000Z</published>
+    <updated>2019-05-20T00:30:08.166Z</updated>
+    
+    <content type="html"><![CDATA[<p>shiyan dhkfaskjhdf<br>skhdfkhak<br>__<a id="more"></a><br>klhsdhkfhkjhakjhfkjdhskah </p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;shiyan dhkfaskjhdf&lt;br&gt;skhdfkhak&lt;br&gt;__
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="http://yoursite.com/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    <id>http://yoursite.com/2019/05/19/关于我/</id>
+    <published>2019-05-19T12:19:54.000Z</published>
+    <updated>2019-05-19T12:21:27.507Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是我的博客。<br>联系方式：xxx</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是我的博客。&lt;br&gt;联系方式：xxx&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="关于我" scheme="http://yoursite.com/tags/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+    
+  </entry>
+  
+</feed>
