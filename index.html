@@ -11,7 +11,20 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
-
+<script>
+    (function () {
+        if ('') {
+            if (prompt('请输入文章密码') !== '') {
+                alert('密码错误！');
+                if (history.length === 1) {
+                    location.replace("http://zhuzaihundun.github.io"); // 这里替换成你的首页
+                } else {
+                    history.back();
+                }
+            }
+        }
+    })();
+</script>
 
 
 
@@ -341,12 +354,14 @@
 
       
         
-          
-            <p>shiyan dhkfaskjhdf<br>skhdfkhak</p>
-<hr>
-<p>klhsdhkfhkjhakjhfkjdhskah </p>
-
-          
+          <p>shiyan dhkfaskjhdf<br>skhdfkhak<br>__
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/05/20/实验/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
