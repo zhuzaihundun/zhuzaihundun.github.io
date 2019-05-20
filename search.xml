@@ -1,39 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>实验</title>
-      <link href="/2019/05/20/%E5%AE%9E%E9%AA%8C/"/>
-      <url>/2019/05/20/%E5%AE%9E%E9%AA%8C/</url>
-      
-        <content type="html"><![CDATA[<p>shiyan dhkfaskjhdf<br>skhdfkhak<br>__<a id="more"></a><br>klhsdhkfhkjhakjhfkjdhskah </p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于我</title>
-      <link href="/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
-      <url>/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
-      
-        <content type="html"><![CDATA[<p>这是我的博客。<br>联系方式：xxx</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 关于我 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[实验]]></title>
+    <url>%2F2019%2F05%2F20%2F%E5%AE%9E%E9%AA%8C%2F</url>
+    <content type="text"><![CDATA[shiyan dhkfaskjhdfskhdfkhak__klhsdhkfhkjhakjhfkjdhskah]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[关于我]]></title>
+    <url>%2F2019%2F05%2F19%2F%E5%85%B3%E4%BA%8E%E6%88%91%2F</url>
+    <content type="text"><![CDATA[这是我的博客。联系方式：xxx]]></content>
+      <tags>
+        <tag>关于我</tag>
+      </tags>
+  </entry>
 </search>
