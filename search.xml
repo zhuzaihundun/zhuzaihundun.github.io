@@ -5,7 +5,9 @@
     <url>%2F2019%2F06%2F04%2F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E5%9B%9E%E5%BD%92%E3%80%81%E8%81%9A%E7%B1%BB%E3%80%81%E6%97%A0%E7%9B%91%E7%9D%A3%2F</url>
     <content type="text"><![CDATA[分类算法的评价指标：Accurary（准确率）、Precision（正确率、查准率）、Recall（召回率、查全率）、F-score、灵敏度、特效度、G-Mean、宏平均、微平均、ROC-AUC曲线、PR曲线、KS曲线（洛仑兹曲线）、Lift（提升图）、Gini系数、Kappa系数、PSI回归算法评价指标：MAE（绝对误差）、MSE（均方误差）、RMSE（均方根误差）、$R_{2}$聚类算法评价指标：兰德系数、调整兰德系数、互信息、轮廓洗漱、Calinski-Harabaz Index无监督学习：密度或距离；统计学手段；转化成监督学习]]></content>
       <tags>
-        <tag>机器学习，分类，回归，聚类，无监督</tag>
+        <tag>机器学习</tag>
+        <tag>分类</tag>
+        <tag>无监督</tag>
       </tags>
   </entry>
   <entry>
