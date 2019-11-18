@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-18T03:56:13.064Z</updated>
+  <updated>2019-11-18T04:10:09.428Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,19 +21,17 @@
     <link href="http://yoursite.com/2019/11/18/%E9%9A%8F%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/11/18/随记/</id>
     <published>2019-11-18T03:17:28.000Z</published>
-    <updated>2019-11-18T03:56:13.064Z</updated>
+    <updated>2019-11-18T04:10:09.428Z</updated>
     
-    <content type="html"><![CDATA[<p><font face="微软雅黑" ，="" size="3"></font></p><ul><li><a href="#1.">1.梯度下降理解</a></li></ul><p></p><h6 id="1.0">1.0梯度下降理解</h6><br>梯度方向：在$ x^{2} $出点的导数，随着$ x $的增加，$ \delta y $的变化情况。<p></p>]]></content>
+    <content type="html"><![CDATA[<font face="微软雅黑" ，="" size="3"><p></p><h6 id="1.0">1.0梯度下降理解</h6><br>梯度方向：在$ x^{2} $出点的导数，随着$ x $的增加，$ \delta y $的变化情况。<br>梯度方向：在$$ x^{2} $$出点的导数，随着$$ x $$的增加，$$ \delta y $$的变化情况。<br>梯度方向：在$\ x^{2} $出点的导数，随着$\ x $的增加，$ \delta y $的变化情况。<p></p></font>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;font face=&quot;微软雅黑&quot; ，=&quot;&quot; size=&quot;3&quot;&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#1.&quot;&gt;1.梯度下降理解&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;h6 id=&quot;1.0&quot;&gt;1.0梯度下降理解&lt;/h6&gt;&lt;br&gt;梯度方向：在$ 
+        &lt;font face=&quot;微软雅黑&quot; ，=&quot;&quot; size=&quot;3&quot;&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;h6 id=&quot;1.0&quot;&gt;1.0梯度下降理解&lt;/h6&gt;&lt;br&gt;梯度方向：在$ x^{2} $出点的导数，随着$ x $的增加，$ \delta y $的变化情况。&lt;br&gt;梯度方向：在$$ x^{2}
       
     
     </summary>
