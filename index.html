@@ -395,11 +395,11 @@
       
         
           
-            <p><font face="微软雅黑" ，="" size="3"></font></p>
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+            <font face="微软雅黑" ，="" size="3">
 
-<p></p><h6 id="1.0">1.0梯度下降理解</h6><br>梯度方向：在$ x^{2} $出点的导数，随着$ x $的增加，$ \delta y $的变化情况。<p></p>
 
+<p></p><h6 id="1.0">1.0梯度下降理解</h6><br>梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta y$的变化情况。<p></p>
+</font>
           
         
       
@@ -1474,6 +1474,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 

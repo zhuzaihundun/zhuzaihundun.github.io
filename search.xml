@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[随记]]></title>
     <url>%2F2019%2F11%2F18%2F%E9%9A%8F%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[1.0梯度下降理解梯度方向：在$ x^{2} $出点的导数，随着$ x $的增加，$ \delta y $的变化情况。]]></content>
+    <content type="text"><![CDATA[1.0梯度下降理解梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta y$的变化情况。]]></content>
       <categories>
         <category>随记</category>
       </categories>
