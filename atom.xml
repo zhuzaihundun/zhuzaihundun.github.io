@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-18T08:50:39.863Z</updated>
+  <updated>2019-11-18T08:53:15.180Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2019/11/18/%E9%9A%8F%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/11/18/随记/</id>
     <published>2019-11-18T03:17:28.000Z</published>
-    <updated>2019-11-18T08:50:39.863Z</updated>
+    <updated>2019-11-18T08:53:15.180Z</updated>
     
-    <content type="html"><![CDATA[<p><font face="微软雅黑" ，="" size="3"></font></p><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script><h3 id="1.">1.梯度下降理解</h3><p>梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta{y}$的变化情况，根据$\Delta{y}$的情况，得到相应的$\Delta{x}$的变化情况，从而不断缩小$\Delta{y}$的值，求得最优。现有的不同的优化算法是因为对$\Delta{x}$的求解方式不同。</p><p></p><h3 id="2.">2.梯度下降理解</h3><br>后续。<p></p>]]></content>
+    <content type="html"><![CDATA[<p><font face="微软雅黑" ，="" size="3"></font></p><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script><h3 id="">梯度下降理解</h3><p>梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta{y}$的变化情况，根据$\Delta{y}$的情况，得到相应的$\Delta{x}$的变化情况，从而不断缩小$\Delta{y}$的值，求得最优。现有的不同的优化算法是因为对$\Delta{x}$的求解方式不同。</p><p></p><h3 id="">梯度下降理解</h3><br>后续。<p></p>]]></content>
     
     <summary type="html">
     
