@@ -1,47 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[随记]]></title>
-    <url>%2F2019%2F11%2F18%2F%E9%9A%8F%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[梯度下降理解 &emsp;&emsp;梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta{y}$的变化情况，根据$\Delta{y}$的情况，得到相应的$\Delta{x}$的变化情况，从而不断缩小$\Delta{y}$的值，求得最优。现有的不同的优化算法是因为对$\Delta{x}$的求解方式不同。 时间：2019.11.18 最小二乘法理解 &emsp;&emsp;目前的机器学习很多算法都是基于最小二乘法，而最小二乘法的数学正确性是这些算法的基础。 &emsp;&emsp;在机器学习中，我们得到预测结果$y^{'}$，而真是结果为$y$，那么$y-y^{'}$代表的是真实和预测之间的差异。只要累计所有样本之间的差异之和，使得差异之和最小，可以自然的认为这个预测算法是最好的。但这里有一些问题值的思考。 &emsp;&emsp;1.$y-y^{'}$可正可负，因此为了保证累计所有的偏差，可以是绝对值或者平方两种方法，但绝对值函数在求导的过程中有许多讨论的问题，因此使用$(y-y^{'})^{2}$更加适合后续的求最优。因此很多函数的目标函数都是基于平方和，也就是最小二乘。 &emsp;&emsp;2.这只是直观的理解。那么能不能通过严格的数学证明其想法的正确性呢？这个就是高斯的一个成就。设$\epsilon=y-y^{'}$，其中$\epsilon$可以认为是随机分布，并且是独立同分布，我们假设分布的概率密度函数为$p(\epsilon)$，假设一个联合概率：$L(x)=p(\epsilon)\dots p(\epsilon)$。但 $\frac{d}{dx} L(x)=0$ 成立时，$L(x)$ 取得最大值。如果前面最小二乘法成立的话，x取得样本数的平均值，即：$\frac{d}{dx} L(x)|_{x=\overline{x}}=0$。最终求得 $p(\epsilon)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{\epsilon^{2}}{2\sigma^{2}}}$。而这就是正态分布，也就是说如果误差的分布是正态分布，则最小二乘法的结果就可能是最终的结果。而一般误差都是随机的、独立的、无数的，而这刚好可以运用到中心极限定理，可以证明这些误差分布符合正态分布，从而又说明最小二乘法的正确性。 时间：2019.11.18 SVM数学原理]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>随记</title>
+      <link href="/2019/11/18/%E9%9A%8F%E8%AE%B0/"/>
+      <url>/2019/11/18/%E9%9A%8F%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<p><font face="微软雅黑" ，="" size="3"></font></p><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script><h3 id="">梯度下降理解</h3><p>&emsp;&emsp;梯度方向：在$x^{2}$出点的导数，随着$x$的增加，$\Delta{y}$的变化情况，根据$\Delta{y}$的情况，得到相应的$\Delta{x}$的变化情况，从而不断缩小$\Delta{y}$的值，求得最优。现有的不同的优化算法是因为对$\Delta{x}$的求解方式不同。</p><p>时间：2019.11.18</p><h3 id="">最小二乘法理解</h3>&emsp;&emsp;目前的机器学习很多算法都是基于最小二乘法，而最小二乘法的数学正确性是这些算法的基础。&emsp;&emsp;在机器学习中，我们得到预测结果$y^{'}$，而真是结果为$y$，那么$y-y^{'}$代表的是真实和预测之间的差异。只要累计所有样本之间的差异之和，使得差异之和最小，可以自然的认为这个预测算法是最好的。但这里有一些问题值的思考。&emsp;&emsp;1.$y-y^{'}$可正可负，因此为了保证累计所有的偏差，可以是绝对值或者平方两种方法，但绝对值函数在求导的过程中有许多讨论的问题，因此使用$(y-y^{'})^{2}$更加适合后续的求最优。因此很多函数的目标函数都是基于平方和，也就是最小二乘。&emsp;&emsp;2.这只是直观的理解。那么能不能通过严格的数学证明其想法的正确性呢？这个就是高斯的一个成就。设$\epsilon=y-y^{'}$，其中$\epsilon$可以认为是随机分布，并且是独立同分布，我们假设分布的概率密度函数为$p(\epsilon)$，假设一个联合概率：$L(x)=p(\epsilon)\dots p(\epsilon)$。但 $\frac{d}{dx} L(x)=0$ 成立时，$L(x)$ 取得最大值。如果前面最小二乘法成立的话，x取得样本数的平均值，即：$\frac{d}{dx} L(x)|_{x=\overline{x}}=0$。最终求得 $p(\epsilon)=\frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{\epsilon^{2}}{2\sigma^{2}}}$。而这就是正态分布，也就是说如果误差的分布是正态分布，则最小二乘法的结果就可能是最终的结果。而一般误差都是随机的、独立的、无数的，而这刚好可以运用到中心极限定理，可以证明这些误差分布符合正态分布，从而又说明最小二乘法的正确性。时间：2019.11.18<h3 id="">SVM数学原理</h3>]]></content>
+      
+      
       <categories>
-        <category>随记</category>
+          
+          <category> 随记 </category>
+          
       </categories>
-      <tags>
-        <tag>梯度下降</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[智慧的提问--感触]]></title>
-    <url>%2F2019%2F11%2F13%2F%E6%99%BA%E6%85%A7%E7%9A%84%E6%8F%90%E9%97%AE-%E6%84%9F%E8%A7%A6%2F</url>
-    <content type="text"><![CDATA[&emsp;&emsp;讲述的是在向黑客提问时的一些礼节，但对其他领域向人请教也有一定的借鉴意义。文章链接，[点这里](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。 &emsp;&emsp;智慧的提问：1.在提问之前应该自己查阅各种资料，自己在网上多方查找无果的情况下，可以向他人请教。 &emsp;&emsp;2.查找合适的提问场所，论坛、邮箱等。 &emsp;&emsp;3.然后向提问对象提问，应注意：尽量简洁的描述自己的问题，不要用过多的修饰词；使用“请”或者“谢谢您的回复”等之类的词语；附上自己解决问题时，所做的工作和努力；请求对方指出解决问题的方向而不应是答案。 &emsp;&emsp;4.提问的技巧。尽可能详细简洁的描述自己所遇到问题的场景，让被提问者迅速锁定问题场景，尽量启发式的提问，尽量避免单纯的索取知识。 &emsp;&emsp;自己的感悟：如何巧妙的提问？让被提问者感兴趣，这样才能获得更加优质的回答。并且，提问应该偏向引导性的回答，尽量不要二元答案，除非必要。]]></content>
+      
+      
+        <tags>
+            
+            <tag> 梯度下降 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>智慧的提问--感触</title>
+      <link href="/2019/11/13/%E6%99%BA%E6%85%A7%E7%9A%84%E6%8F%90%E9%97%AE-%E6%84%9F%E8%A7%A6/"/>
+      <url>/2019/11/13/%E6%99%BA%E6%85%A7%E7%9A%84%E6%8F%90%E9%97%AE-%E6%84%9F%E8%A7%A6/</url>
+      
+        <content type="html"><![CDATA[<font face="微软雅黑" ，="" size="3">&emsp;&emsp;讲述的是在向黑客提问时的一些礼节，但对其他领域向人请教也有一定的借鉴意义。文章链接，[点这里](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。&emsp;&emsp;智慧的提问：1.在提问之前应该自己查阅各种资料，自己在网上多方查找无果的情况下，可以向他人请教。&emsp;&emsp;2.查找合适的提问场所，论坛、邮箱等。&emsp;&emsp;3.然后向提问对象提问，应注意：尽量简洁的描述自己的问题，不要用过多的修饰词；使用“请”或者“谢谢您的回复”等之类的词语；附上自己解决问题时，所做的工作和努力；请求对方指出解决问题的方向而不应是答案。&emsp;&emsp;4.提问的技巧。尽可能详细简洁的描述自己所遇到问题的场景，让被提问者迅速锁定问题场景，尽量启发式的提问，尽量避免单纯的索取知识。&emsp;&emsp;自己的感悟：如何巧妙的提问？让被提问者感兴趣，这样才能获得更加优质的回答。并且，提问应该偏向引导性的回答，尽量不要二元答案，除非必要。</font>]]></content>
+      
+      
       <categories>
-        <category>杂文</category>
+          
+          <category> 杂文 </category>
+          
       </categories>
-      <tags>
-        <tag>智慧提问</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[机器学习的评价指标——分类、回归、聚类、无监督]]></title>
-    <url>%2F2019%2F06%2F04%2F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E5%9B%9E%E5%BD%92%E3%80%81%E8%81%9A%E7%B1%BB%E3%80%81%E6%97%A0%E7%9B%91%E7%9D%A3%2F</url>
-    <content type="text"><![CDATA[分类算法的评价指标：Accurary（准确率）、Precision（正确率、查准率）、Recall（召回率、查全率）、F-score、灵敏度、特效度、G-Mean、宏平均、微平均、ROC-AUC曲线、PR曲线、KS曲线（洛仑兹曲线）、Lift（提升图）、Gini系数、Kappa系数、PSI回归算法评价指标：MAE（绝对误差）、MSE（均方误差）、RMSE（均方根误差）、$R_{2}$聚类算法评价指标：兰德系数、调整兰德系数、互信息、轮廓洗漱、Calinski-Harabaz Index无监督学习：密度或距离；统计学手段；转化成监督学习]]></content>
+      
+      
+        <tags>
+            
+            <tag> 智慧提问 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>机器学习的评价指标——分类、回归、聚类、无监督</title>
+      <link href="/2019/06/04/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E5%9B%9E%E5%BD%92%E3%80%81%E8%81%9A%E7%B1%BB%E3%80%81%E6%97%A0%E7%9B%91%E7%9D%A3/"/>
+      <url>/2019/06/04/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87%E2%80%94%E2%80%94%E5%88%86%E7%B1%BB%E3%80%81%E5%9B%9E%E5%BD%92%E3%80%81%E8%81%9A%E7%B1%BB%E3%80%81%E6%97%A0%E7%9B%91%E7%9D%A3/</url>
+      
+        <content type="html"><![CDATA[<p>分类算法的评价指标：Accurary（准确率）、Precision（正确率、查准率）、Recall（召回率、查全率）、F-score、灵敏度、特效度、G-Mean、宏平均、微平均、ROC-AUC曲线、PR曲线、KS曲线（洛仑兹曲线）、Lift（提升图）、Gini系数、Kappa系数、PSI<br>回归算法评价指标：MAE（绝对误差）、MSE（均方误差）、RMSE（均方根误差）、$R_{2}$<br>聚类算法评价指标：兰德系数、调整兰德系数、互信息、轮廓洗漱、Calinski-Harabaz Index<br>无监督学习：密度或距离；统计学手段；转化成监督学习</p>]]></content>
+      
+      
       <categories>
-        <category>机器学习</category>
-        <category>评价指标</category>
+          
+          <category> 机器学习 </category>
+          
+          <category> 评价指标 </category>
+          
       </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>分类</tag>
-        <tag>无监督</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[关于我]]></title>
-    <url>%2F2019%2F05%2F19%2F%E5%85%B3%E4%BA%8E%E6%88%91%2F</url>
-    <content type="text"><![CDATA[这是我的博客。联系方式：xxx]]></content>
-      <tags>
-        <tag>关于我</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 机器学习 </tag>
+            
+            <tag> 分类 </tag>
+            
+            <tag> 无监督 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我</title>
+      <link href="/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/"/>
+      <url>/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
+      
+        <content type="html"><![CDATA[<p>这是我的博客。<br>联系方式：xxx</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 关于我 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
