@@ -3,15 +3,22 @@
 
 
     <url>
+        <loc>http://yoursite.com/tags/%E7%9D%A1%E7%9C%A0/</loc>
+        <lastmod>2019-12-19T15:06:03.248Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://yoursite.com/tags/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/</loc>
-        <lastmod>2019-11-19T09:17:11.227Z</lastmod>
+        <lastmod>2019-11-19T09:17:11.228Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://yoursite.com/tags/%E6%99%BA%E6%85%A7%E6%8F%90%E9%97%AE/</loc>
-        <lastmod>2019-11-13T07:46:05.524Z</lastmod>
+        <lastmod>2019-11-13T07:46:05.525Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
