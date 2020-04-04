@@ -82,4 +82,15 @@
         <tag>梯度下降</tag>
       </tags>
   </entry>
+  <entry>
+    <title>日记</title>
+    <url>/2020/04/04/%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">String str1 = &quot;hello</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>杂文</category>
+      </categories>
+      <tags>
+        <tag>随机</tag>
+      </tags>
+  </entry>
 </search>
