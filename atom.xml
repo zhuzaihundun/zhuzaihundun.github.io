@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-05T08:52:40.710Z</updated>
+  <updated>2020-04-05T08:57:21.082Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/04/04/%E6%95%B4%E7%90%86%E5%92%8C%E6%80%BB%E7%BB%93%E5%AD%A6%E6%9C%AF%E6%96%87%E7%8C%AE/"/>
     <id>http://yoursite.com/2020/04/04/整理和总结学术文献/</id>
     <published>2020-04-04T11:57:40.000Z</published>
-    <updated>2020-04-05T08:52:40.710Z</updated>
+    <updated>2020-04-05T08:57:21.082Z</updated>
     
     <content type="html"><![CDATA[<ol><li><p>轻整理，重搜索。对文献资料进行简单的分类；通过各种工具快速定位到所需要的文献。</p></li><li><p>做好标记。可以将一批文献放在一起写一段综述，然后加上跳转定位功能。可以通过表格的方式记录编号、题目、期刊、作者、时间、关键词、文献综述、论文方法、论文信息、分类、问题、句子 。</p></li><li><p>必须使用文献管理工具。</p></li><li><p>最好以一个项目或者文章对文章进行分类。</p></li><li><p>重点是阅读论文的输出，不用太多注重文献的分类。</p></li><li><p>这些方法也可以推广到工作领域。</p><p>参考来源：<a href="https://www.zhihu.com/question/26901116" target="_blank" rel="noopener">https://www.zhihu.com/question/26901116</a></p></li></ol>]]></content>
     
@@ -40,7 +40,7 @@
       <category term="杂文" scheme="http://yoursite.com/categories/%E6%9D%82%E6%96%87/"/>
     
     
-      <category term="随机" scheme="http://yoursite.com/tags/%E9%9A%8F%E6%9C%BA/"/>
+      <category term="文献整理" scheme="http://yoursite.com/tags/%E6%96%87%E7%8C%AE%E6%95%B4%E7%90%86/"/>
     
   </entry>
   

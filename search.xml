@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>关于我</title>
+    <url>/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
+    <content><![CDATA[<p>这是我的博客。<br>联系方式：xxx</p>
+]]></content>
+      <tags>
+        <tag>关于我</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>整理和总结学术文献</title>
     <url>/2020/04/04/%E6%95%B4%E7%90%86%E5%92%8C%E6%80%BB%E7%BB%93%E5%AD%A6%E6%9C%AF%E6%96%87%E7%8C%AE/</url>
     <content><![CDATA[<ol>
@@ -23,16 +32,7 @@
         <category>杂文</category>
       </categories>
       <tags>
-        <tag>随机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于我</title>
-    <url>/2019/05/19/%E5%85%B3%E4%BA%8E%E6%88%91/</url>
-    <content><![CDATA[<p>这是我的博客。<br>联系方式：xxx</p>
-]]></content>
-      <tags>
-        <tag>关于我</tag>
+        <tag>文献整理</tag>
       </tags>
   </entry>
   <entry>
@@ -46,6 +46,26 @@
       </categories>
       <tags>
         <tag>睡眠</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>智慧的提问--感触</title>
+    <url>/2019/11/13/%E6%99%BA%E6%85%A7%E7%9A%84%E6%8F%90%E9%97%AE-%E6%84%9F%E8%A7%A6/</url>
+    <content><![CDATA[<font face="微软雅黑" ， size="3">
+&emsp;&emsp;讲述的是在向黑客提问时的一些礼节，但对其他领域向人请教也有一定的借鉴意义。文章链接，[点这里](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。
+&emsp;&emsp;智慧的提问：1.在提问之前应该自己查阅各种资料，自己在网上多方查找无果的情况下，可以向他人请教。
+&emsp;&emsp;2.查找合适的提问场所，论坛、邮箱等。
+&emsp;&emsp;3.然后向提问对象提问，应注意：尽量简洁的描述自己的问题，不要用过多的修饰词；使用“请”或者“谢谢您的回复”等之类的词语；附上自己解决问题时，所做的工作和努力；请求对方指出解决问题的方向而不应是答案。
+&emsp;&emsp;4.提问的技巧。尽可能详细简洁的描述自己所遇到问题的场景，让被提问者迅速锁定问题场景，尽量启发式的提问，尽量避免单纯的索取知识。
+
+&emsp;&emsp;自己的感悟：如何巧妙的提问？让被提问者感兴趣，这样才能获得更加优质的回答。并且，提问应该偏向引导性的回答，尽量不要二元答案，除非必要。
+</font>
+]]></content>
+      <categories>
+        <category>杂文</category>
+      </categories>
+      <tags>
+        <tag>智慧提问</tag>
       </tags>
   </entry>
   <entry>
@@ -71,26 +91,6 @@
       </categories>
       <tags>
         <tag>梯度下降</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>智慧的提问--感触</title>
-    <url>/2019/11/13/%E6%99%BA%E6%85%A7%E7%9A%84%E6%8F%90%E9%97%AE-%E6%84%9F%E8%A7%A6/</url>
-    <content><![CDATA[<font face="微软雅黑" ， size="3">
-&emsp;&emsp;讲述的是在向黑客提问时的一些礼节，但对其他领域向人请教也有一定的借鉴意义。文章链接，[点这里](https://github.com/ruby-china/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)。
-&emsp;&emsp;智慧的提问：1.在提问之前应该自己查阅各种资料，自己在网上多方查找无果的情况下，可以向他人请教。
-&emsp;&emsp;2.查找合适的提问场所，论坛、邮箱等。
-&emsp;&emsp;3.然后向提问对象提问，应注意：尽量简洁的描述自己的问题，不要用过多的修饰词；使用“请”或者“谢谢您的回复”等之类的词语；附上自己解决问题时，所做的工作和努力；请求对方指出解决问题的方向而不应是答案。
-&emsp;&emsp;4.提问的技巧。尽可能详细简洁的描述自己所遇到问题的场景，让被提问者迅速锁定问题场景，尽量启发式的提问，尽量避免单纯的索取知识。
-
-&emsp;&emsp;自己的感悟：如何巧妙的提问？让被提问者感兴趣，这样才能获得更加优质的回答。并且，提问应该偏向引导性的回答，尽量不要二元答案，除非必要。
-</font>
-]]></content>
-      <categories>
-        <category>杂文</category>
-      </categories>
-      <tags>
-        <tag>智慧提问</tag>
       </tags>
   </entry>
   <entry>
