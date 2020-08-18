@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-05T08:57:21.082Z</updated>
+  <updated>2020-08-18T09:29:41.659Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开始</title>
+    <link href="http://yoursite.com/2020/08/18/%E5%BC%80%E5%A7%8B/"/>
+    <id>http://yoursite.com/2020/08/18/开始/</id>
+    <published>2020-08-18T09:27:04.000Z</published>
+    <updated>2020-08-18T09:29:41.659Z</updated>
+    
+    <content type="html"><![CDATA[<p><font face="微软雅黑" ， size="3"><br>&emsp;开始工作了，挺好的。做一些学习规划。</font></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;font face=&quot;微软雅黑&quot; ， size=&quot;3&quot;&gt;&lt;br&gt;&amp;emsp;开始工作了，挺好的。做一些学习规划。&lt;/font&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="日记" scheme="http://yoursite.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>整理和总结学术文献</title>
